@@ -34,7 +34,7 @@ export default function Home() {
 
       <p>
         I have graciously worked in the restaurant industry for over two and a
-        half decades. Mostly in Boston and mainly behind the bars at fine dining
+        half decades. Mostly in Boston and mainly tending bars at fine dining
         establishments.
       </p>
       <p>
@@ -73,7 +73,7 @@ export default function Home() {
         industry to build a satisfying career. My current endeavors consist of
         two websites built entirely by me to showcase my unique styles, digital
         and hand drawn images along with my technical skills. Black Diamond
-        Graphics will display multiple levels of design with a great emphasis on
+        Graphix will display multiple levels of design with a great emphasis on
         winter sports and Graphic Graphic Design will be dedicated to present
         material intended for the mature audience.{" "}
       </p>
