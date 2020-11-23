@@ -4,10 +4,10 @@ import "./style.css";
 export default function Home() {
   return (
     <div className="Home">
-      <h1 style={{ color: "grey" }}>
+      <h1 style={{ color: "black" }}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
-      <img
+      {/* <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085066/cmVkX2dsb3dfejJ3Y3g3/drilldown"
         alt="red glow face pic"
       />
@@ -26,9 +26,9 @@ export default function Home() {
       <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085988/Ymx1ZV9nbG93X2Vpajc4Ng==/drilldown"
         alt="blue glow face pic"
-      />
+      /> */}
       <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605086226/cHVycGxlX2dsb3dfazFvMGxz/drilldown"
+        src="https://res.cloudinary.com/dpnjzg0ar/image/upload/v1606064185/purple_glow_k1o0ls.jpg"
         alt="purple glow face pic"
       />
 

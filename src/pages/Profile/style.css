@@ -1,0 +1,11 @@
+*
+.background {
+  background: url("https://res.cloudinary.com/dpnjzg0ar/image/upload/v1606063965/polygon_background_bemqsk.png")
+  no-repeat center center fixed;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+overflow-x: hidden;
+margin: none;
+
+}
