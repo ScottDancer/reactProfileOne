@@ -34,17 +34,27 @@ nav .nav-links {
 }
 nav .nav-links a {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   cursor: pointer;
-}  nav .nav-links a:hover {
-  border-bottom: 2px solid#94c9e2;
+}  
+nav .nav-links a:hover {
+  border-bottom: 2px solid#94c9e2; 
 }
-nav .header {
-  color: #D4AF37;
-  font-weight: 900;
-  font-size: 75px;
+nav .burger {
+  font-size: 29px;
+  display: none;
 }
-nav .header p {
-  color:#62727b;
-  font-size: 25px;
+
+@media all and (max-width:768px) {
+  nav .burger {
+    display: block;
+  }
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
 }
+
+

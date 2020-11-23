@@ -17,6 +17,7 @@ function NavBar() {
           <a>Contact</a>
         </li>
         </ul>
+        <i className="fas fa-bars burger"></i>
       </nav>
     </div>
   );
