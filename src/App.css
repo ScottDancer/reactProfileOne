@@ -22,7 +22,7 @@ nav {
   color: purple;
 }
 nav .logo {
-  font-size: 22px;
+  font-size: 44px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -38,7 +38,7 @@ nav .nav-links a {
   cursor: pointer;
 }  
 nav .nav-links a:hover {
-  border-bottom: 2px solid#94c9e2; 
+  border-bottom: 1px solid#94c9e2; 
 }
 nav .burger {
   font-size: 29px;

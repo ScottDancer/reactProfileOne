@@ -32,7 +32,7 @@ export default function Home() {
         alt="purple glow face pic"
       />
 
-      <p>
+      <p style={{ text: "bold" }}>
         I have graciously worked in the restaurant industry for over two and a
         half decades. Mostly in Boston and mainly tending bars at fine dining
         establishments.

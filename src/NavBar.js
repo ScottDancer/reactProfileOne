@@ -6,8 +6,8 @@ function NavBar() {
   return (
     <div>
       <nav>
-        <div className="logo">logo</div>
-        <ul className="nav-links" style={{transform: open ? "translateX(0px)" : "translateX(-500px)" }}>
+        <div className="logo">SD</div>
+        <ul className="nav-links" style={{transform: open ? "translateX(0px)" : "" }}>
         <li>
           <a>Home</a>
         </li>
