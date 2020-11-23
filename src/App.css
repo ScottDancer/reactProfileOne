@@ -1,4 +1,13 @@
-* {
+* .background {
+  background: url("https://res.cloudinary.com/dpnjzg0ar/image/upload/v1606063965/polygon_background_bemqsk.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  margin: none;
+}
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,7 +28,7 @@ nav {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: linear-gradient(#94c9e2, #6b7cbc);
-  color: purple;
+  color: #4d0099;
 }
 nav .logo {
   font-size: 44px;
@@ -36,9 +45,9 @@ nav .nav-links a {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-}  
+}
 nav .nav-links a:hover {
-  border-bottom: 1px solid#94c9e2; 
+  border-bottom: 1px solid#94c9e2;
 }
 nav .burger {
   font-size: 29px;
@@ -46,7 +55,7 @@ nav .burger {
   cursor: pointer;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width: 768px) {
   nav .burger {
     display: block;
   }
@@ -63,14 +72,14 @@ nav .burger {
     transition: 0.75s ease-in-out;
   }
 
-nav .nav-links li {
-  padding: 25px;
-  border-bottom: 1px solid #6b7cbc;
-}
-nav .nav-links li:last-of-type{
-  border-bottom: 0px;
-}
-nav .nav-links a:hover {
-  border-bottom: 0px solid#6b7cbc;
-}
+  nav .nav-links li {
+    padding: 25px;
+    border-bottom: 1px solid #6b7cbc;
+  }
+  nav .nav-links li:last-of-type {
+    border-bottom: 0px;
+  }
+  nav .nav-links a:hover {
+    border-bottom: 0px solid#6b7cbc;
+  }
 }

@@ -5,7 +5,8 @@ import style from "./App.css"
 
 function App() {
   return (
-    <div>
+   <div className = "background">
+   <div>
       <NavBar />
       {" "}
       <Router>
@@ -35,6 +36,7 @@ function App() {
         </Switch>
         {" "}
       </Router>
+    </div>
     </div>
   );
 }
