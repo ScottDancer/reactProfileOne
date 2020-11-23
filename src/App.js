@@ -16,8 +16,8 @@ function App() {
             {" "}
           </Route>
           {" "}
-          <Route exact path="/profile">
-             <h1>Profile</h1>
+          <Route exact path="/portfolio">
+             <h1>Portfolio</h1>
             {" "}
           </Route>
           {" "}
