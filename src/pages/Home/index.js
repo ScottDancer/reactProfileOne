@@ -1,34 +1,21 @@
 import React from "react";
 import "./style.css";
+import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
+    // <div>
+    //   <Link to="/"> Home </Link>
+    //   <Link to="/Portfolio"> Portfolio </Link>
+    //   <Link to="/Contact"> Contact </Link>
+    // </div>
     <div className="Home">
       <h1 style={{ color: "black" }}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
-      {/* <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085066/cmVkX2dsb3dfejJ3Y3g3/drilldown"
-        alt="red glow face pic"
-      />
+     
       <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085301/b3JhbmdlX2dsb3dfcmQ0YnJi/drilldown"
-        alt="orange glow face pic"
-      />
-      <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085489/eWVsbG93X2dsb3dfd2Z6eXR4/drilldown"
-        alt="yellow glow face pic"
-      />
-      <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085870/bmVvbl9ncmVlbl9nbG93X3NvcnhuaA==/drilldown"
-        alt="neon green glow face pic"
-      />
-      <img
-        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1605085988/Ymx1ZV9nbG93X2Vpajc4Ng==/drilldown"
-        alt="blue glow face pic"
-      /> */}
-      <img
-        src="https://res.cloudinary.com/dpnjzg0ar/image/upload/v1606064185/purple_glow_k1o0ls.jpg"
+        src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
         alt="purple glow face pic"
       />
 
