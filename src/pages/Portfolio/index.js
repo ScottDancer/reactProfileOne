@@ -22,6 +22,7 @@ function Portfolio() {
         <div style = {{textAlign: "center"}}>
          
             <h1>Group Projects</h1>
+            <h4>Click On the Images To View The Websites</h4>
             <ul>
                 <li>
                     <Link to={{ pathname: "https://gnuartemis.github.io/Music-Chord-Identifier/index.html" }} target="_blank"><img className ="profile-image" src = {Project1a}></img><img className ="profile-image" src = {Project1b}></img></Link>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -9,22 +9,22 @@ export default function Home() {
     //   <Link to="/Portfolio"> Portfolio </Link>
     //   <Link to="/Contact"> Contact </Link>
     // </div>
-    <div className="Home">
+    <div style = {{textAlign: "center"}} className="Home">
       <h1 style={{ color: "black" }}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
-     
+
       <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
         alt="purple glow face pic"
       />
 
-      <p style={{ text: "bold" }}>
+      <h4 style={{ text: "bold" }}>
         I have graciously worked in the restaurant industry for over two and a
         half decades. Mostly in Boston and mainly tending bars at fine dining
         establishments.
-      </p>
-      <p>
+      </h4>
+      <h4>
         I now live in the Pacific Northwest where I am taking my artistic
         passions and bringing them to the digital world. I am a full stack web
         developer with a background in fine arts. I studied writing and music
@@ -32,20 +32,20 @@ export default function Home() {
         drawing at the Museum of Fine Arts in Boston, MA. I received two
         certificates in San Diego, CA for Visual, Vector, and Digital Design and
         Multi-Media Design.
-      </p>
-      <p>
+      </h4>
+      <h4>
         {" "}
         My most recent achievement is a Full Stack Web Developing Certificate
         from the University of Washington’s Coding Bootcamp certified through
         Trilogy Education Services.
-      </p>
-      <p>
+      </h4>
+      <h4>
         {" "}
         I have always been creative, and I have had a long desire of learning to
         build websites completely from the ground up. I am finding great joy in
         this challenging endeavor and look forward to future projects.
-      </p>
-      <p>
+      </h4>
+      <h4>
         {" "}
         Quirky, cartoonish, and a bit nerdy would describe who I am and that
         certainly is reflected in my design style. Fluent in front end and back
@@ -54,8 +54,8 @@ export default function Home() {
         JavaScript, jQuery, Node.js, Heroku, Git, Responsive Design, User
         Authentication, Materialize, Bootstrap, MySQL, MongoDB and continue to
         learn more each day.
-      </p>
-      <p>
+      </h4>
+      <h4>
         I could not be more excited about finding opportunities within the tech
         industry to build a satisfying career. My current endeavors consist of
         two websites built entirely by me to showcase my unique styles, digital
@@ -63,7 +63,7 @@ export default function Home() {
         Graphix will display multiple levels of design with a great emphasis on
         winter sports and Graphic Graphic Design will be dedicated to present
         material intended for the mature audience.{" "}
-      </p>
+      </h4>
     </div>
   );
 }
