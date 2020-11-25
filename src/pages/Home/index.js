@@ -11,18 +11,18 @@ export default function Home() {
     //   <Link to="/Contact"> Contact </Link>
     // </div>
     <div style = {{textAlign: "center"}} className="Home">
-      <h1 style={{ color: "black" }}>
+      <h1 style={{ color: "black"}}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
  
       <img src = {FacePic} className="profilePic" alt = "blue glow face pic"></img>
-      
+  
       {/* <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
         alt="blue glow face pic"
       /> */}
-
-      <h4 style={{ text: "bold" }}>
+  
+      <h4>
         I have graciously worked in the restaurant industry for over two and a
         half decades. Mostly in Boston and mainly tending bars at fine dining
         establishments.
@@ -33,7 +33,7 @@ export default function Home() {
         developer with a background in fine arts. I studied writing and music
         theory at Harvard Extension School and learned color theory and life
         drawing at the Museum of Fine Arts in Boston, MA. I received two
-        certificates in San Diego, CA for Visual, Vector, and Digital Design and
+        certificates in San Diego, CA for Visual, Vector, Digital and
         Multi-Media Design.
       </h4>
       <h4>
@@ -67,6 +67,7 @@ export default function Home() {
         winter sports and Graphic Graphic Design will be dedicated to present
         material intended for the mature audience.{" "}
       </h4>
+     
     </div>
   );
 }
