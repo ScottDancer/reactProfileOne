@@ -14,9 +14,9 @@ export default function Home() {
       <h1 style={{ color: "black" }}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
+ 
+      <img src = {FacePic} className="profilePic" alt = "blue glow face pic"></img>
       
-      <img src = {FacePic} alt = "blue glow face pic"></img>
-
       {/* <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
         alt="blue glow face pic"
