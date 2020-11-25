@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import FacePic from "./assets/blueglo.jpg"
 
 export default function Home() {
   return (
@@ -13,11 +14,13 @@ export default function Home() {
       <h1 style={{ color: "black" }}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
+      
+      <img src = {FacePic} alt = "blue glow face pic"></img>
 
-      <img
+      {/* <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
-        alt="purple glow face pic"
-      />
+        alt="blue glow face pic"
+      /> */}
 
       <h4 style={{ text: "bold" }}>
         I have graciously worked in the restaurant industry for over two and a
