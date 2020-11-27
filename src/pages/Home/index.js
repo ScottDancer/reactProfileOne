@@ -11,7 +11,7 @@ export default function Home() {
     //   <Link to="/Contact"> Contact </Link>
     // </div>
     <div style = {{textAlign: "center"}} className="Home">
-      <h1 style={{ color: "black"}}>
+      <h1 style={{ color: "#003997"}}>
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
  
