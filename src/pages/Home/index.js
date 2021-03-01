@@ -21,7 +21,7 @@ export default function Home() {
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
         alt="blue glow face pic"
       /> */}
-  
+      <div className="container">
       <h4>
         I have graciously worked in the restaurant industry for over two and a
         half decades. Mostly in Boston and mainly tending bars at fine dining
@@ -64,10 +64,9 @@ export default function Home() {
         two websites built entirely by me to showcase my unique styles, digital
         and hand drawn images along with my technical skills. Black Diamond
         Graphix will display multiple levels of design with a great emphasis on
-        winter sports and Graphic Graphic Design will be dedicated to present
-        material intended for the mature audience.{" "}
+        winter sports and Graphic Graphic Design will be edgier and dedicated for adult humor.{" "}
       </h4>
-     
+      </div>
     </div>
   );
 }
