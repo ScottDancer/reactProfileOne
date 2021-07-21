@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import FacePic from "./assets/blueglo.jpg"
+import FacePic from "./assets/headshot.jpg"
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         Hello, I’m Scott Dancer and I’ve gone digital!
       </h1>
  
-      <img src = {FacePic} className="profilePic" alt = "blue glow face pic"></img>
+      <img src = {FacePic} className="profilePic" alt = "headshot"></img>
   
       {/* <img
         src="https://res-console.cloudinary.com/dpnjzg0ar/thumbnails/transform/v1/image/upload//v1606120852/Ymx1ZV9nbG93X3FvcGduaA==/drilldown"
@@ -64,7 +64,7 @@ export default function Home() {
         two websites built entirely by me to showcase my unique styles, digital
         and hand drawn images along with my technical skills. Black Diamond
         Graphix will display multiple levels of design with a great emphasis on
-        winter sports and Graphic Graphic Design will be edgier and dedicated for adult humor.{" "}
+        winter sports and Graphic Graphic Design will be edgier andm dedicated for adult humor.{" "}
       </h4>
       </div>
     </div>

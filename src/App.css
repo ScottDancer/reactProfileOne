@@ -1,4 +1,4 @@
-* .background {
+/* * .background {
   background: url("https://res.cloudinary.com/dpnjzg0ar/image/upload/v1603304132/Operation_Alpine_1_of_1_-9_sn0wnd.jpg")
     no-repeat center center fixed;
   background-size: cover;
@@ -6,18 +6,21 @@
   width: 100vw;
   overflow-x: hidden;
   margin: none;
-}
- {
+} */
+
+.background {
+  background-color: black;
+  /* background: url(assets/hero-comp.jpg); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container{
-  background:#B4BDD4; 
+  background: white; 
   padding: 50px; 
   margin-top: 50px;
   margin-bottom: 50px;
-  border-radius: 28px;
+  border-radius: 2px;
 }
 
 li {
