@@ -14,4 +14,15 @@
   border: 3px solid #877D74;
   filter: grayscale(100%)
 
+} 
+
+h1 {
+  font-size: 9rem;
+  font-family: 'Rouge Script', cursive;
+  font-weight: 100;
+  font-family: 'Tangerine', cursive;
+  line-height: 10rem;
+  height: 35px;
+  margin-top: 50px;
+
 }
